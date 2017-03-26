@@ -1,0 +1,33 @@
+!!!
+%html
+  = partial 'layouts/head'
+  %body
+    = partial 'layouts/header'
+
+    %article{:itemscope => "", :itemtype => "http://schema.org/BlogPosting"}
+      %section.a-section
+        .a-content--title
+          %h1{:itemprop => "name headline"}= current_page.data.title
+          .m-post__meta
+            %h3
+              %time{:datetime => current_page.data.date, :itemprop => "datePublished"}
+                %i.fa.fa-calendar
+                = current_page.data.date.strftime('%d %B %Y')
+        .a-content
+          %div{:itemprop => "articleBody"}= yield
+
+          #disqus_thread
+          :javascript
+            (function() {  // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+
+                s.src = '//stevebrewer.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+          %noscript
+            Please enable JavaScript to view the
+            %a{:href => "https://disqus.com/?ref_noscript", :rel => "nofollow"} comments powered by Disqus.
+
+    = partial 'layouts/footer'

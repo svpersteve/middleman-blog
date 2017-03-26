@@ -1,0 +1,158 @@
+.logo-svg * {
+  transform-origin: 50% 50%;
+}
+
+@keyframes spin {
+  0%, 50% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(50turn);
+  }
+  }
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(.8);
+  }
+
+  30% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(.8);
+  }
+
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+.star {
+  animation: spin 5s ease-in-out infinite;
+}
+
+.sun:hover {
+  animation: spin 4s;
+}
+
+
+
+  @keyframes grow {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(.95);
+  }
+
+  100% {
+    transform: scale(1);
+
+  }
+  }
+
+  @keyframes turn {
+
+    0% {
+      transform: rotate(0);
+    }
+
+    50% {
+      transform: rotate(10deg);
+    }
+
+    100% {
+      transform: rotate(0);
+    }
+
+  }
+
+
+.sunrays {
+  transform-origin: 50% 50%;
+  animation: grow 1.8s ease-out infinite,
+        turn 15s forwards infinite;
+}
+
+
+
+@keyframes beat2 {
+  0%, 50% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart {
+  animation: beat2 3s infinite;
+}
+
+.heart:hover {
+  animation: beat 2s infinite;
+}
+
+
+@keyframes drift {
+  0% {
+  transform: translate3d(0,0,0);
+}
+
+  50% {
+  transform: translate3d(0,20px,0);
+  }
+
+  100% {
+  transform: translate3d(0,0,20px);
+  }
+
+
+}
+
+.cloud {
+  animation: drift 8s infinite;
+}
+
+.sunrays {
+
+}

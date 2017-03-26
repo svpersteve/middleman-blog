@@ -1,0 +1,13 @@
+$page-padding: 16px;
+
+.a-section {
+  overflow: hidden;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
+}
+
+.a-section--intro {
+  background-color: $colour-yellow;
+  margin-bottom: 50px;
+  border-bottom: solid 8px $colour-blue;
+}

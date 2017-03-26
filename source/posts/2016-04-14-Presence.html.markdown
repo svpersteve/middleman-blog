@@ -1,0 +1,30 @@
+---
+title: "Presence"
+date: 2016-04-14
+tags: learning
+---
+
+[Drunk Tank Pink][drunk] is beginning to touch on this more, but everything around us - the symbols and imagery - affects the way we think, feel and perceive the world, based on associations we’ve made in the past. Amy Cuddy’s TED talk resonated with thousands in a world where many are feeling more powerless than ever.
+
+<img class="o-post__image" src="{{ "/img/presence.jpeg" | prepend: site.baseurl }}" />
+
+In [Presence][presence], Cuddy writes of how ‘power posing’ for a few minutes can affect how others perceive you for the rest of the day — but more significantly, how you perceive yourself.
+
+<div class="a-video">
+  <iframe class="a-video--iframe" src="https://www.youtube.com/embed/Ks-_Mh1QhMc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Posing as powerful can trick your brain into feeling powerful. Conversely, weak, inward poses can induce feelings of powerlessness, causing us to minimise ourselves, apologise and self-deprecate — none of which leave great impressions on those around us.
+
+Presence has taught me the importance of good posture, taking up as much space as you need to with respect for others, and highlighted the value of having high testosterone and low cortisol levels. That is, feeling powerful but not feeling stressed. Powerful people who are not stressed are more compassionate to others, more authentic in their interactions and more present moment-to-moment.
+
+I experienced this before I read Presence, but did not realise what had happened. After months of meditation practice, I was naturally present, calm and self-assured on the first day of a new job. It was a temporary placement, so I was starting without a prior interview.
+
+When I arrived with nothing but excitement to be there and anticipation of this being a job I was going to enjoy, my demeanour left the impression that I was a confident expert in my field.
+
+Of course, I am an expert in special education needs. But a while ago I would have been so overcome with anxiety about the impression I was going to make that it would seem like I was trying to hide the fact I didn’t know what I was doing. I wouldn’t seem sure of myself or what I was saying, which creates doubt in the minds of the people you speak to.
+
+A few days after starting, my line manager told me everyone loves me and they’re really happy to have me there. “Even the head, which surprised me as I didn’t think she’d even met you?”. I had met her, for two minutes on arrival, where she introduced herself and we had a brief conversation about weather and how much time she spends chastising girls for rolling up their skirts. Nothing whatsoever about my skills, and yet she came away from that conversation with the impression that I was someone worth keeping.
+
+[drunk]: http://amzn.to/1PQNjO5
+[presence]: http://amzn.to/1MOK7rN
