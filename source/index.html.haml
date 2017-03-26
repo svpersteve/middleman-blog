@@ -1,0 +1,13 @@
+---
+title: Ruby Developer
+---
+%section.a-section
+  .a-content
+    - blog.articles.each_with_index do |article, i|
+      .m-post
+        = link_to article do
+          %h1= article.title
+        %h3
+          %i.fa.fa-calendar-o
+          = article.date.strftime('%d %B %Y')
+        %p= article.summary(250)

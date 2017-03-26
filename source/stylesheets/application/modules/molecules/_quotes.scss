@@ -1,0 +1,38 @@
+.m-quotes {
+  margin: 40px auto;
+  text-align: left;
+  padding-bottom: 40px;
+  a {
+    font-size: inherit;
+  }
+}
+
+.m-quotes__mine {
+  li {
+    font-size: 1.2em;
+  }
+}
+
+.m-quotes__quote {
+  margin: 20px 0;
+  .m-quotes__author {
+  text-align: right;
+  margin-top: 20px;
+}
+}
+
+.m-quotes__quote--long {
+  margin: 40px 0;
+  .m-quotes__author {
+  text-align: right;
+  margin-top: 60px;
+}
+}
+
+.m-quotes__title {
+  margin: 50px 0;
+}
+
+.m-quotes__break {
+  margin: 80px 0;
+}
