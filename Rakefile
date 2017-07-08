@@ -14,6 +14,7 @@ desc "deploy to github pages"
 task :deploy do
   p "## Deploying to Github Pages"
   cd "build" do
+    system "echo 'stevebrewer.uk' >> CNAME"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     p "## Commiting: #{message}"
