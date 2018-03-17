@@ -20,15 +20,15 @@
 
   %ul.m-navbar.m-navbar--desktop
     %li
-      %a{:href => "/about.html"}
+      %a{:href => "/about.html", class: ('selected' if current_page.path == 'about.html') }
         %i.fa.fa-user-circle
         About
     %li
-      %a{:href => "/"}
+      %a{:href => "/", class: ('selected' if current_page.path == 'index.html') }
         %i.fa.fa-pencil
         Articles
     %li
-      %a{:href => "/quotes.html"}
+      %a{:href => "/quotes.html", class: ('selected' if current_page.path == 'quotes.html') }
         %i.fa.fa-quote-left
         Quotes
 
