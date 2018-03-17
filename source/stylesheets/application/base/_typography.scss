@@ -79,3 +79,11 @@ blockquote {
   margin: 20px 0;
   border-left: 5px solid $colour-blue;
 }
+
+.bullets {
+  list-style-type: circle;
+
+  li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
