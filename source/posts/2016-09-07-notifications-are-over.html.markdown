@@ -1,5 +1,5 @@
 ---
-title:  'Notifications are dead'
+title:  'Notifications are over'
 date:   2016-09-07
 tags: self-development
 ---
