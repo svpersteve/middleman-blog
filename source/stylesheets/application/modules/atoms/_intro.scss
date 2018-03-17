@@ -12,14 +12,15 @@
     cursor: default;
   }
 
-  h2 {
-    margin-left: 3px;
-  }
-
   img {
     border-radius: 50%;
+    border: 1px solid $colour-blue;
     width: 150px;
-    margin-right: 15px;
+
+    @media #{$from-medium} {
+      margin-right: 25px;
+      margin-top: 10px;
+    }
   }
 
   @media #{$from-medium} {
