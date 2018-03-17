@@ -9,7 +9,11 @@ h3 {
 
 p,
 a,
-li {
+li,
+td,
+th,
+div,
+label {
   font-family: $body-font;
 }
 

@@ -1,0 +1,233 @@
+---
+title: Reading
+---
+
+:ruby
+  books = [
+    {
+      'title' => 'Braving the Wilderness',
+      'author' => 'Brene Brown',
+      'score' => 8,
+      'link' => 'http://amzn.to/2Iz2YqH',
+      'date' => Date.new(2018, 2, 18),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Self-compassion',
+      'author' => 'Krisin Neff',
+      'score' => 9,
+      'link' => 'http://amzn.to/2G2fEIo',
+      'date' => Date.new(2013, 8, 30),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Creativity Inc',
+      'author' => 'Ed Catmull',
+      'score' => 9,
+      'link' => 'http://amzn.to/2G2kfu0',
+      'date' => Date.new(2016, 1, 30),
+      'subject' => 'Productivity'
+    },
+    {
+      'title' => 'Big Magic: Creative Living Beyond Fear',
+      'author' => 'Elizabeth Gilbert',
+      'score' => 8,
+      'link' => 'http://amzn.to/2c0IYyJ',
+      'date' => Date.new(2016, 4, 12),
+      'subject' => 'Productivity'
+    },
+    {
+      'title' => 'Smarter, Faster, Better',
+      'author' => 'Charles Duhigg',
+      'score' => 6,
+      'link' => 'http://amzn.to/2pjJCxJ',
+      'date' => Date.new(2016, 7, 17),
+      'subject' => 'Productivity'
+    },
+    {
+      'title' => 'The Power of Habit',
+      'author' => 'Charles Duhigg',
+      'score' => 10,
+      'link' => 'http://amzn.to/2pjgnLx',
+      'date' => Date.new(2014, 12, 20),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Why does he do that?: Inside the Minds of Angry and Controlling Men',
+      'author' => 'Lundy Bancroft',
+      'score' => 10,
+      'link' => 'http://amzn.to/2pjobMH',
+      'date' => Date.new(2013, 05, 20),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Entrepreneur Revolution',
+      'author' => 'Daniel Priestley',
+      'score' => 7,
+      'link' => 'http://amzn.to/2tVQRkd',
+      'date' => Date.new(2013, 05, 20),
+      'subject' => 'Business'
+    },
+    {
+      'title' => 'Emotional Intelligence',
+      'author' => 'Daniel Goleman',
+      'score' => 8,
+      'link' => 'http://amzn.to/2DAxAEs',
+      'date' => Date.new(2008, 04, 30),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Eat Pray Love',
+      'author' => 'Elizabeth Gilbert',
+      'score' => 8,
+      'link' => 'http://amzn.to/2DAdnP2',
+      'date' => Date.new(2015, 4, 24),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Originals: How Non-conformists Change the World',
+      'author' => 'Adam Grant',
+      'score' => 6,
+      'link' => 'http://amzn.to/2bVyRtL',
+      'date' => Date.new(2016, 4, 2),
+      'subject' => 'Productivity'
+    },
+    {
+      'title' => 'Leaving Home: The Art of Separating From Your Difficult Family',
+      'author' => 'David Celani',
+      'score' => 10,
+      'link' => 'http://amzn.to/2plyujd',
+      'date' => Date.new(2015, 4, 9),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'We Should All Be Feminists',
+      'author' => 'Chimamanda Ngozi Adichie',
+      'score' => 10,
+      'link' => 'http://amzn.to/2DBtk7L',
+      'date' => Date.new(2015, 12, 7),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Yes please',
+      'author' => 'Amy Poehler',
+      'score' => 9,
+      'link' => 'http://amzn.to/2pkKsJO',
+      'date' => Date.new(2016, 3, 13),
+      'subject' => 'Fun'
+    },
+    {
+      'title' => 'The Brain That Changes Itself',
+      'author' => 'Norman Doidge',
+      'score' => 10,
+      'link' => 'http://amzn.to/2FO2z1T',
+      'date' => Date.new(2016, 2, 8),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'The Rational Optimist: How Prosperity Evolves',
+      'author' => 'Matt Ridley',
+      'score' => 8,
+      'link' => 'http://amzn.to/2plzsvR',
+      'date' => Date.new(2016, 1, 9),
+      'subject' => 'Business'
+    },
+    {
+      'title' => 'Rich Habits: The Daily Success Habits of Wealthy Individuals',
+      'author' => 'Thomas Corley',
+      'score' => 7,
+      'link' => 'http://amzn.to/2HHqFf8',
+      'date' => Date.new(2016, 1, 6),
+      'subject' => 'Business'
+    },
+    {
+      'title' => 'Presence: Bringing Your Boldest Self to Your Biggest Challenges',
+      'author' => 'Amy Cuddy',
+      'score' => 9,
+      'link' => 'http://amzn.to/2FRj1P5',
+      'date' => Date.new(2016, 4, 18),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Year of Yes',
+      'author' => 'Shonda Rhimes',
+      'score' => 9,
+      'link' => 'http://amzn.to/2pnd8BV',
+      'date' => Date.new(2015, 12, 13),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Radical Focus',
+      'author' => 'Christina Wodtke',
+      'score' => 8,
+      'link' => 'http://amzn.to/2pmBlbB',
+      'date' => Date.new(2017, 5, 15),
+      'subject' => 'Productivity'
+    },
+    {
+      'title' => 'The Willpower Instinct',
+      'author' => 'Kelly McGonigal',
+      'score' => 8,
+      'link' => 'http://amzn.to/2ploarw',
+      'date' => Date.new(2016, 5, 25),
+      'subject' => 'Mind'
+    },
+    {
+      'title' => 'Designing Data-Intensive Applications',
+      'author' => 'Martin Kleppmann',
+      'score' => '',
+      'link' => 'http://amzn.to/2HHUtZk',
+      'date' => 'In progress',
+      'subject' => 'Programming'
+    },
+    {
+      'title' => 'Eloquent Ruby',
+      'author' => 'Russ Olsen',
+      'score' => '',
+      'link' => 'http://amzn.to/2u0qE3U',
+      'date' => 'In progress',
+      'subject' => 'Programming'
+    },
+    {
+      'title' => 'Getting Things Done',
+      'author' => 'David Allen',
+      'score' => '8',
+      'link' => 'http://amzn.to/2pmo6Yj',
+      'date' => Date.new(2016, 3, 28),
+      'subject' => 'Productivity'
+    },
+  ]
+
+%section.a-section
+  %h1.center Reading
+
+%section.a-section
+  .a-content.a-content--wide
+    .m-page
+      .m-page__section
+        %table.m-table#reading-list{class: 'ui celled table'}
+          %thead
+            %tr
+              %th{style: 'width: 40%;'}
+                Title
+              %th.hide-on-mobile
+                Author
+              %th.sorting
+                Date read
+              %th.hide-on-mobile
+                Subject
+              %th.sorting{style: 'width: 10%; text-align: center;', data: 'sort'}
+                Score
+          %tbody
+            - books.each do |book|
+              %tr
+                %td{style: 'width: 40%;'}
+                  = link_to book['title'], book['link'], target: '__blank'
+                %td.hide-on-mobile
+                  = book['author']
+                %td
+                  = book['date']
+                %td.hide-on-mobile
+                  = book['subject']
+                %td{style: 'width: 10%; text-align: center;', data: book['score']}
+                  = book['score']

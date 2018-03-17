@@ -1,0 +1,14 @@
+.m-table {
+  width: 100%;
+
+  th {
+    font-weight: bold;
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: 5px 15px;
+    border-bottom: 1px solid $colour-blue-pale;
+  }
+}

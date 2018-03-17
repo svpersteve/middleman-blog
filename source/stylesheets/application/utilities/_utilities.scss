@@ -1,3 +1,9 @@
 .center {
   text-align: center;
 }
+
+.hide-on-mobile {
+  @media #{$to-medium} {
+    display: none;
+  }
+}
