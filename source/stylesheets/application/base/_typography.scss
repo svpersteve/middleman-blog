@@ -1,5 +1,5 @@
 $header-font: 'Oswald', sans-serif;
-$body-font: 'Rubik', sans-serif;
+$body-font: 'Cormorant Garamond', serif;;
 
 h1,
 h2,
@@ -20,11 +20,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.9em;
+  font-size: 1.4em;
   line-height: 1.2em;
 
   @media #{$from-medium} {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
@@ -52,7 +52,7 @@ p,
 a,
 li {
   font-size: 20px;
-  line-height: 27px;
+  line-height: 26px;
 }
 
 p {
@@ -66,7 +66,7 @@ a {
 }
 
 a:hover {
-  color: $colour-blue-pale;
+  color: $colour-blue-light;
 }
 
 img {
