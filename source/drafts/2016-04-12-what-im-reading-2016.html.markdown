@@ -6,14 +6,9 @@ tags: learning
 
 With my new concentration superpowers from meditating, my consumption of books has rocketed from one a month to one a week. My goal in 2016 is to read 50.
 
-I track my reading on Trello. Here’s my [bookshelf board][trello]. But here’s a list of my favourites so far:
+Here’s a list of my favourites so far:
 
-The Brain that Changes Itself, Norman Doidge
--------------
-
-<div class="o-post__image center">
-<img src="{{ "/img/doidge.png" | prepend: site.baseurl }}" />
-</div>
+## The brain that changes itself, Norman Doidge
 
 I chose [this book][doidge] to help me understand one of my students, who has a learning difficulty that makes reading comprehension extremely difficult. In researching ways to teach her to comprehend the language she’s reading and hearing, I watched a TED talk by Barbara Arrowsmith-Young on how she rewired her brain and overcame a similar learning difficulty.
 

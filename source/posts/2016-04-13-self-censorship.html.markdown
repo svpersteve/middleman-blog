@@ -8,7 +8,7 @@ I’ve just had a phone interview for a developer role from heaven, and in my ea
 
 During the interview, I was asked why I’d cut out the first paragraph, because they really liked it. Her question caught me by surprise. I had thrown the baby out with the bathwater. Although I hadn’t really, as she still had a copy.
 
-So here, in all its undeleted glory is my summary, back by popular demand.
+Here it is:
 
 - <i class="fa fa-star blue o-post__icon"></i> Positivity — I am highly positive, patient and nurturing of others, and I adopt a student-focused, rights and responsibilities based approach to learning that is built on encouraging choice and autonomy for students, highly rewarding environments that stimulate neurotransmitters for learning and encourage behaviours that offer the student the best opportunity to shine in their own unique way.
 

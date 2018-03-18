@@ -4,7 +4,7 @@ date: 2016-04-17
 tags: organisation
 ---
 
-There are a million posts about Getting Things Done, and a thousand on using Trello for this and of course, a [whole book][gtd]. So I won’t go into massive detail, I’m just pitching support.
+There are a million posts about Getting Things Done, and a thousand on using Trello for this and of course, a [whole book][gtd]. So I won’t go into massive detail.
 
 I organise my life with Trello, and it’s perfect for the GTD philosophy:
 
